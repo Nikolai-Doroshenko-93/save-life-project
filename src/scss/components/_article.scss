@@ -1,0 +1,54 @@
+.news {
+    height: 563px;
+    &__title {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 54px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 24px;
+    }
+    &__content {
+        width :778px;
+        margin: 0 auto; 
+        &__see-all {
+            margin-top: 24px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 40px;
+            cursor: pointer;
+            text-decoration-line: underline;
+            color: #AD7F00;
+        }
+        &-box {
+            width: 778px;
+            padding-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            &__text-content {
+                width: 603px;
+                margin-left: 31px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 140%;
+                & p {
+                    margin: 8px;
+                }
+            }
+        }  
+    }
+    &__image__black-dog {
+        background-image: url(../images/design/news__black-dog__1920-1270.jpg);
+        width: 140px;
+        height: 140px;
+    }
+    &__image__black-youngs-dog {
+        background-image: url(../images/design/news__black-young-dogs__1920-1270.jpg);
+        width: 140px;
+        height: 140px;
+    } 
+}
+

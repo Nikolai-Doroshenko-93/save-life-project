@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>БООЗЖ "СПАСИ ЖИЗНЬ"</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body class="body" id="body">
+    <script>
+        AOS.init();
+    </script>
+    <header class="header" id="header">
+            <div class="header__content">
+                <nav class="header__menu" id="header__menu">
+                    <div class="header__menu-background" id="header__menu-background"></div>
+                    <div id="nav__btn">
+                        <div class="nav__btn__burger" id="nav__btn__burger"></div>
+                    </div>
+                    
+                    <ul class="header__nav__box" id="header__nav__box">
+                        <li><a class="header__nav__item" id="header__nav__item1" href="#how-to-help" tabindex="0">Как помочь</a></li>
+                        <li><a class="header__nav__item" id="header__nav__item2" href="#our-wards" tabindex="0">Подопечные животные</a></li>
+                        <li><a class="header__nav__item" id="header__nav__item3" href="#about-us" tabindex="0">О нас</a></li>
+                        <li><a class="header__nav__item" id="header__nav__item4" href="#about-us" tabindex="0">Контакты</a></li>
+                    </ul>
+                    <script>
+                        document.getElementById("nav__btn").onclick = function() {open()};
+                        
+                        function open() {
+                            document.getElementById("header").classList.toggle("header--show");
+                            document.getElementById("header__nav__box").classList.toggle("header__nav__box--show");
+                            document.getElementById("nav__btn__burger").classList.toggle("nav__btn__close");
+                            document.getElementById("body").classList.toggle("body-not-scroll");
+                            document.getElementById("header__menu-background").classList.toggle("header__menu-background--show");
+                        }
+                        if(document.documentElement.clientWidth < 1024) {
+                        document.getElementById("header__nav__item1").onclick = function() {
+                            document.getElementById("header").classList.toggle("header--show");
+                            document.getElementById("header__nav__box").classList.toggle("header__nav__box--show");
+                            document.getElementById("nav__btn__burger").classList.toggle("nav__btn__close");
+                            document.getElementById("body").classList.toggle("body-not-scroll");
+                            document.getElementById("header__menu-background").classList.toggle("header__menu-background--show");
+                        }};
+                        if(document.documentElement.clientWidth < 1024) {
+                        document.getElementById("header__nav__item2").onclick = function() {
+                            document.getElementById("header").classList.toggle("header--show");
+                            document.getElementById("header__nav__box").classList.toggle("header__nav__box--show");
+                            document.getElementById("nav__btn__burger").classList.toggle("nav__btn__close");
+                            document.getElementById("body").classList.toggle("body-not-scroll");
+                            document.getElementById("header__menu-background").classList.toggle("header__menu-background--show");
+                        }};
+                        if(document.documentElement.clientWidth < 1024) {
+                        document.getElementById("header__nav__item3").onclick = function() {
+                            document.getElementById("header").classList.toggle("header--show");
+                            document.getElementById("header__nav__box").classList.toggle("header__nav__box--show");
+                            document.getElementById("nav__btn__burger").classList.toggle("nav__btn__close");
+                            document.getElementById("body").classList.toggle("body-not-scroll");
+                            document.getElementById("header__menu-background").classList.toggle("header__menu-background--show");
+                        }}''
+                        if(document.documentElement.clientWidth < 1024) {
+                        document.getElementById("header__nav__item4").onclick = function() {
+                            document.getElementById("header").classList.toggle("header--show");
+                            document.getElementById("header__nav__box").classList.toggle("header__nav__box--show");
+                            document.getElementById("nav__btn__burger").classList.toggle("nav__btn__close");
+                            document.getElementById("body").classList.toggle("body-not-scroll");
+                            document.getElementById("header__menu-background").classList.toggle("header__menu-background--show");
+                        }}''
+                        if(document.documentElement.clientWidth < 1024) {
+                        document.getElementById("header__menu-background").onclick = function() {
+                            document.getElementById("header").classList.toggle("header--show");
+                            document.getElementById("header__nav__box").classList.toggle("header__nav__box--show");
+                            document.getElementById("nav__btn__burger").classList.toggle("nav__btn__close");
+                            document.getElementById("body").classList.toggle("body-not-scroll");
+                            document.getElementById("header__menu-background").classList.toggle("header__menu-background--show");
+                        }};
+                    </script>
+                </nav> 
+            </div>
+    </header>
+    <main>
+        <section class="promo-gray-box">
+                <div class="promo-gray-box__content content">
+                    <div class="promo-gray-box__content__social-icon-box">
+                        <div class="promo-gray-box__social-icon__background">
+                            <a class="promo-gray-box__social-icon__button" href="https://vk.com/animalsgrodno" tabindex="0">
+                                <div class="promo-gray-box__social-icon__button-vk"></div>
+                            </a>
+                        </div>
+                        <div class="promo-gray-box__social-icon__background">
+                        <a class="promo-gray-box__social-icon__button" href="https://www.instagram.com/animalsgrodno" tabindex="0">    
+                            <div class="promo-gray-box__social-icon__button-instagramm"></div>                        
+                        </a>
+                        </div>
+                    </div>
+                    <h1>СПАСИ ЖИЗНЬ</h1>
+                    <p>Благотворительное общественное объединение защиты животных</p>
+                    <p>Наша цель: помощь бездомным животным. Мы поддерживаем хвостиков, которые
+                        оказались в пункте отлова и временного содержания Гродно.</p> 
+                    <p>У животных, находящихся в пункте отлова и временного содержания бродячих животных, 
+                        есть всего несколько дней до усыпления...</p>   
+                    <div class="promo-gray-box__button-to-help__button-background button-gold-background">
+                        <a href="#how-to-help" class="promo-gray-box__button-to-help__button button-gold" tabindex="0">Хочу помочь</a> 
+                    </div>
+                    <div class="promo-gray-box__img-cat"></div>
+                </div>   
+        </section>
+        <section class="promo-white-box">  
+            <div class="promo-white-box__image-cat-and-dog__circle-image-dog-and-cat--wrapper"> 
+                <div class="promo-white-box__image-cat-and-dog__circle-image-dog-and-cat"></div>
+            </div> 
+            <div class="promo-white-box__content">                 
+                <div class="promo-white-box__content-box">
+                    <h3>Тут большие добрые сердца помогают жить маленьким сердечкам</h3>
+                    <p>Ежедневно в пункт временного содержания, путём отлова, попадают безнадзорные с
+                        обаки и коты. По закону, у животных находящихся в САХе есть всего лишь несколько 
+                        дней, чтобы найти прежнего или обрести нового хозяина. В противном случае
+                        невостребованных животных ждёт УСЫПЛЕНИЕ! Здесь вы сможете найти своего как 
+                        потерявшегося, так и нового верного друга! </p>
+                    <p>Если нет возможности забрать хвостика, вы можете помочь нам финансово или другой 
+                        материальной помощью. Еще нам всегда нужны добрые и отзывчивые люди - волонтеры, 
+                        без вас очень трудно!</p> 
+                </div> 
+            </div>
+        </section>
+        <section class="how-to-help__navigation" id="how-to-help">
+            <h3 class="how-to-help__navigation__title">Как помочь</h3>
+            <div class="how-to-help__navigation-box" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                <ul class="how-to-help__navigation__buttons">
+                    <li class="how-to-help__area__house">
+                        <a href="#our-wards" tabindex="0">
+                            <div class="how-to-help__navigation__button-background">
+                                <div class="how-to-help__navigation__button-icon-house"></div>                          
+                            </div>  
+                            <p class="how-to-help__navigation__discription-for-button">Дать хвостику дом или взять на передержку</p>
+                        </a>                      
+                    </li>
+                    <li class="how-to-help__area__finance">
+                        <a href="#financial-support" tabindex="0">
+                            <div class="how-to-help__navigation__button-background ">
+                                <div class="how-to-help__navigation__button-icon-finance"></div>
+                            </div> 
+                            <p>Перечислить деньги в фонд помощи</p>
+                        </a>
+                    </li>
+                    <li class="how-to-help__area__material">
+                        <a href="#material-support" tabindex="0">
+                            <div class="how-to-help__navigation__button-background ">
+                                <div class="how-to-help__navigation__button-icon-material"></div>
+                            </div> 
+                            <p>Привезти корм, лекарства или другие вещи</p>     
+                        </a>                  
+                    </li>
+                    <li class="how-to-help__area__auto">
+                        <a href="#auto-support" tabindex="0">
+                            <div class="how-to-help__navigation__button-background ">
+                                <div class="how-to-help__navigation__button-icon-auto"></div>
+                            </div> 
+                            <p>Доставить животным еду или отвезти в больницу</p>   
+                        </a>   
+                    </li>
+                    <li class="how-to-help__area__volunteering">
+                        <a href="#volunteering-support" tabindex="0">
+                            <div class="how-to-help__navigation__button-background">
+                                <div class="how-to-help__navigation__button-icon-volunteering"></div>
+                            </div> 
+                            <p>Выгуливать, кормить, мыть или лечить хвостиков</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+        <section class="home-and-overexposure" id="house-or-some-period">
+            <div class="home-and-overexposure__box-icon">
+                <span>
+                    <div class="home-and-overexposure__icon"></div>
+                </span>
+            </div> 
+            <div class="home-and-overexposure__content" >         
+                    <div class="home-and-overexposure__text-content">
+                        <h5 class="home-and-overexposure__text-content__title">Дом и любовь для хвостика</h5>
+                        <p>Самая большая помощь&nbsp;&mdash; это спасти жизнь животному, забрать домой, или помочь хвостику с
+                            поиском дома. У&nbsp;наших подопечных очень мало времени. Рассказывайте друзья и&nbsp;знакомым о&nbsp;наших                           
+                            хвостиках, возможно кому-то нужен будет именно такой друг.</p>
+                    </div>
+                    <div class="home-and-overexposure__text-content">
+                        <h5 class="home-and-overexposure__text-content__title">Передержка</h5>
+                        <p>Когда животных ждет скорое усыпление, очень важно найти ему дом. Но&nbsp;пока дом и&nbsp;новые или старые
+                            хозяева разыскиваются, хвостику нужно где-то жить. Вы&nbsp;можете забрать к&nbsp;себе домой животных на&nbsp;время.                           
+                            Волонтеры, в&nbsp;свою очередь, обязательно помогут с&nbsp;поиском нового дома.
+                        </p>
+                    </div>
+            </div>        
+        </section>        
+        <section class="our-wards" id="our-wards">      
+            <div class="our-wards__content">
+                <p class="our-wards__title">Наши подопечные</p>
+                <a class="our-wards__see-all" href="./cards-page.html" tabindex="0"><p>Посмотреть всех (157) <svg class="our-wards__see-all__arrow" width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.20548 9L0 1.46179L1.39726 0L10 9L1.39726 18L0 16.5382L7.20548 9Z" fill="#AD7F00"/>
+                    </svg>
+                    </p></a>
+                <div class="our-wards__animals-card__box--wrapper">
+                <div class="our-wards__animals-card__box">
+                    <div class="our-wards__animals-card__arrow-box">
+                        <div class="our-wards__animals-card__arrow-background" tabindex="0"13>
+                            <div class="our-wards__animals-card__left-arrow"></div>
+                        </div>
+                        <div class="our-wards__animals-card__arrow-background" tabindex="0">
+                            <div class="our-wards__animals-card__right-arrow"></div>
+                        </div>
+                        <div class="our-wards__animals-card__white-dots-box">
+                            <div class="our-wards__animals-card__white-dots"></div>
+                            <div class="our-wards__animals-card__white-dots"></div>
+                            <div class="our-wards__animals-card__white-dots"></div>
+                            <div class="our-wards__animals-card__white-dots"></div>
+                            <div class="our-wards__animals-card__white-dots"></div>
+                        </div>
+                    </div>                  
+                    <div class="our-wards__animals-card our-wards__animals-card__Blaky our-wards__animals-card__opacity" >
+                        <div class="our-wards__animals-card__content">
+                            <div class="our-wards__animals-card__Blaky-foto our-wards__animals-card__foto-box"></div>
+                            <h5>Блэки</h5>
+                            <p class="our-wards__animals-card__gender-and-age">Мальчик, 7 месяцев</p>
+                            <p class="our-wards__animals-card__discription">Веселый и очень игривый, ему так нужны ваша любовь и ласка.У него потрясающая густая шерсть.</p>
+                            <a>Подробнее</a>
+                        </div>    
+                    </div>
+                    <div class="our-wards__animals-card our-wards__animals-card__Monik">
+                        <div class="our-wards__animals-card__content">
+                            <div class="our-wards__animals-card__Monik-foto our-wards__animals-card__foto-box"></div>
+                            <h5>Моник</h5>                       
+                            <p class="our-wards__animals-card__gender-and-age">Мальчик, 7 месяцев</p>
+                            <p class="our-wards__animals-card__discription">К поводку приучен. Не агрессивный. В еде не привередничает. С другими животными не конфликтует. Привит.</p>
+                            <a>Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="our-wards__animals-card animals-card__Samanta our-wards__animals-card__opacity">
+                        <div class="our-wards__animals-card__content">
+                            <div class="our-wards__animals-card__Samanta-foto our-wards__animals-card__foto-box"></div>
+                            <h5>Саманта</h5>
+                            <p class="our-wards__animals-card__gender-and-age">Девочка, 1 год</p>
+                            <p class="our-wards__animals-card__discription">Очень ласковая мяукалка. Хочет домой.</p>
+                            <a>Подробнее</a>        
+                        </div>
+                    </div>
+                </div> 
+                </div>              
+                    <div class="our-wards__animals-card__button-box">                    
+                        <div class="our-wards__animals-card__button-take-at-home--button-background-gold button-gold-background">
+                            <a class="our-wards__animals-card__button-take-at-home--button-gold button-gold" tabindex="0" id="take-at-home-form__open-button">Забрать домой</a>
+                        </div>
+                        <div class="our-wards__animals-card__button-take-at-some-period--button-background-silver">
+                            <a class="our-wards__animals-card__button-take-at-some-period--button-silver" tabindex="0" id="take-for-some-period-form__open-button">Забрать на передержку</a>
+                        </div>
+                    </div>                          
+            </div>
+            <div class="our-wards__social__content">
+                <p class="our-wards__social__discription">Помочь быстрее пристроить хвостиков можно путем размещения наших постов у себя в соц сетях. Переходите на наши странички.</p>
+                <div class="our-wards__social__icon-box">  
+                    <div class="social-icon__background-white">
+                         <a class="social-icon__white" href="https://vk.com/animalsgrodno " tabindex="0">
+                            <div class="social-icon__white__vk"></div>
+                        </a>
+                    </div>
+                    <div class="social-icon__background-white">
+                        <a class="social-icon__white" href="https://www.instagram.com/animalsgrodno/" tabindex="0">
+                            <div class="social-icon__white__instagram"></div>
+                        </a>  
+                    </div>
+                </div>      
+            </div>              
+        </section>
+        <section class="financial-support" id="financial-support">
+            <div class="financial-support__box-icon">
+                <span>
+                    <div class="financial-support__icon"></div>
+                </span>
+            </div>
+            <div class="financial-support__content">
+                <h3 class="financial-support__content__title">Финансовая поддержка</h3>
+                <p class="financial-support__content__discription"> Такая помощь необходима для оплаты стерилизации, прививок, лечения больных животных, покупка корма и других жизненно необходимых вещей.</p>
+                <div class="financial-support__content__box">
+                    <div class="financial-support__content__bank-account">
+                        <h5>Расчетный счет в Банке</h5>
+                        <ul>
+                            <li>БООЗЖ "СПАСИ ЖИЗНЬ"</li>
+                            <li>УНП: 590375680</li>
+                            <li>Текущий (расчетный) счет в BYN: </li>
+                            <li>BY13ALFA30152555460010270000 </li>
+                            <li>ЗАО 'Альфа-Банк'</li>
+                            <li>БИК: ALFABY2X</li>
+                        </ul>
+                        <div class="financial-support__button-fast-payment__button-background-gold button-gold-background">
+                            <a class="financial-support__button-fast-payment__button-gold button-gold" tabindex="0" href="https://express-pay.by/">Быстрый платеж</a> 
+                        </div>   
+                    </div>
+                    <div class="financial-support__content__boxes-city">
+                        <h5>Коробочки в городе</h5>
+                        <p class="financial-support__content__boxes-city-discription">Наши коробочки для пожертвований в г. Гродно:</p>
+                        <ol>
+                        <li>Зоомаркет «Зообазар», ул. Комарова, 26а;</li>
+                        <li>Учебный корпус ГГАУ,  ул. Волковича, 1;</li>
+                        <li>Парикмахерская «ПРИМАДОННА», ул. Гоголя, 11;</li>
+                        <li>Зоомаркет «Зообазар» ул. Пушкина, 31а;</li>
+                        <li>Гипермаркет «Евроопт», ул. Тимирязева, 8;</li>
+                        <li>Гипермаркет «Евроопт», ул. Янки Купалы, 82А;</li>
+                        <li>Фитнес-центр «АДРЕНАЛИН», ул. Подольная, д.37.</li>
+                        </ol>
+                        <a class="financial-support__content__boxes-city__see-on-the-map" tabindex="0" id="financial-support__open-maps">Посмотреть на карте</a>
+                        <div class="financial-support__content__boxes-city__maps-box" id="financial-support__boxes-city__maps-box">
+                            <a class="financial-support__content__boxes-city__maps-box__close-cross" id="financial-support__maps-box__close-button"></a>
+                            <iframe class="financial-support__content__boxes-city__maps" id="financial-support__boxes-city__maps-box--map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d45372d459d521713e72ca87ce2d66568342d53a8e390b9e0ffa056594a80b6&amp;source=constructor" width="94%" height="90%" frameborder="0"></iframe>
+                        </div>
+                        <script>  
+                            document.getElementById("financial-support__open-maps").onclick = function() {
+                                document.getElementById("financial-support__boxes-city__maps-box").style.display = 'block'; 
+                            }
+                            document.getElementById("financial-support__maps-box__close-button").onclick = function() {
+                                document.getElementById("financial-support__boxes-city__maps-box").style.display = 'none';
+                            } 
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="material-support" id="material-support">
+            <div class="material-support__box-icon">
+                <span>
+                    <div class="material-support__icon"></div>
+                </span>
+            </div>
+            <div class="material-support__content">
+                <div class="material-support__content__karma">
+                    <h5>Карма</h5>
+                    <p>Можно помочь с покупкой и доставкой еды для хвостатых:</p>
+                    <ul>
+                        <li>&bull;&nbsp;Быстроразваривающиеся <strong>крупы</strong>: дроблёная гречка, овсянка, сечка, овсяные/гречневые хлопья, не требующие варки;</li>
+                        <li>&bull;&nbsp;<strong>Сухие и влажные корма</strong> для собак и котов (кроме Рекс и Petboom),</li>
+                        <li>&bull;&nbsp;<strong>Фарш для собак</strong>, "БОБИКИ" и др.</li>   
+                    </ul>
+                    <p>Вы можете помочь в приготовлении каш и их доставке!</p>
+                </div>
+                <div class="material-support__content__medicines">
+                <h5>Лекарства</h5>
+                <p>Нам необходимы препараты: <strong>цефтриаксон</strong> (флакон по 0,5 г); <strong>новокаин</strong> (раствор для инъекций); <strong>гискан</strong>; 
+                    <strong>гамавит</strong>; <strong>катозал</strong>; <strong>антитокс фоспренил</strong>; <strong>энтеросгель</strong> (паста); <strong>препараты от
+                    глистов</strong>, <strong>блох</strong>, <strong>клещей</strong>, <strong>для заживления ран</strong>.</p>
+                </div>
+                <div class="material-support__content__other-things">
+                    <h5>Другие нужные вещи</h5>   
+                    <p>Для содержания животных всегда необходимы:</p>  
+                    <ul>
+                        <li>&bull;&nbsp;Ошейники, поводки, намордники;</li> 
+                        <li>&bull;&nbsp;Опилки и солома в любом количестве;</li>
+                        <li>&bull;&nbsp;Посуда для животных и для приготовления еды (миски, кастрюли, ножи, черпаки и др.);</li>
+                        <li>&bull;&nbsp;Теплые вещи, лежаки для утепления и уюта животных;</li>
+                        <li>&bull;&nbsp;Будки.</li>         
+                    </ul>
+                </div>
+                <a class="material-support__volunteer-contacts" tabindex="0" id="contacts-volunteering__open-button">Кому и куда передать?</a>
+            </div>    
+        </section> 
+        <section class="auto-support" id="auto-support">  
+             <div class="auto-support__box-icon">
+                <span>
+                    <div class="auto-support__icon"></div>
+                </span>
+            </div>
+            <div class="auto-support__content">
+                <h5 class="auto-support__title">Автопомощь</h5>
+                <p class="auto-support__discription">Важной помощью будет транспортировка. Необходимо отвозить животных в ветеринарную клинику в сопровождении нашего волонтера или привозить еду. 
+                    Если у вас есть автомобиль, немного свободного времени и доброе сердце - будем вам рады.</p>
+                <div class="auto-support__button-submit-application__button-background-gold button-gold-background">
+                    <a class="auto-support__button-submit-application__button-gold button-gold" tabindex="0" id="auto-help-form__open-button">Оставить заявку</a>
+                </div>
+            </div>
+        </section> 
+        <section class="volunteering" id="volunteering-support">   
+            <div class="volunteering__box-icon">
+                <span>
+                     <div class="volunteering__icon"></div>
+                 </span>
+            </div>
+            <div class="volunteering__image-dog__circle-image-dog--wrapper">
+                <div class="volunteering__image-dog__circle-image-dog"></div>
+            </div>
+            <div class="volunteering__content">
+                <h5 class="volunteering__title">Волонтерство</h5>
+                <p class="volunteering__discription">Катастрофически не хватает добрых людей, которые готовы поделиться своим временем и окружить заботой животных. 
+                    Много опыта не нужно, все расскажем и поможем! Если Вы располагаете несколькими часами свободного времени, проведите его 
+                    с пользой! Главное условие - это Ваше совершеннолетие и любовь к животным!
+                    Часто животным не хватает обычных прогулок и игры, они сидят в клетках и грустят.</p>
+                <div class="volunteering__button-submit-application__button-background-gold button-gold-background">
+                    <a class="volunteering__button-submit-application__button-gold button-gold" tabindex="0" id="volunteering-form__open-button">Оставить заявку</a> 
+                </div>
+            </div>      
+        </section>       
+    </main>
+    <article class="news">
+        <h5 class="news__title">Новости</h5>
+        <div class="news__content">
+            <div class="news__content-box">
+                <div class="news__image__black-dog"></div>
+                <div class="news__content-box__text-content">
+                    <p>Срочно необходимо забрать собаку (мальчик) на передержку или насовсем. Послезавтра его ждет усыпление. 
+                        С кормом и доставкой поможем. В данный момент находится в вольера САХа.</p>
+                        <p>Контактный телефон + 37529 58930557</p>
+                        <p>Спасите жизнь хвостику.</p>
+                </div>
+            </div>    
+            <div class="news__content-box">
+                <div class="news__image__black-youngs-dog"></div>
+                <div class="news__content-box__text-content">
+                    <p>Найдены бедомные щенки по улице Горького д.56.</p>
+                    <p>Сегодня будут перевезены в вольеры САХа. Если у вас есть возможность взять на передержку или пристроить 
+                        малышей - будем вам очень благодарны.</p>
+                </div>
+            </div>
+            <p class="news__content__see-all"><a tabindex="0">Посмотреть все новости</a></p>
+        </div>      
+    </article>
+    <footer class="footer">
+        <section class="footer__about-us" id="about-us">
+            <div class="footer__about-us__content">
+                <h5 class="footer__about-us__title">О нас</h5>
+                <p class="footer__about-us__discription">Мы - благотворительное общественное объединение защиты животных «СПАСИ ЖИЗНЬ». Цель нашей деятельности: 
+                    помощь бездомным животным, оказавшимся в Пункте отлова и временного содержания безнадзорных животных г.Гродно.</p>
+                <p class="footer__about-us__contacs-title">Контакты</p>
+                <p class="footer__about-us__contacs-info">Если Вы хотите приютить одного из этих четвероногих или оказать какую-либо помощь, звоните волонтёрам:<br>
+                    +375 (33) 6237879, Лена<br>
+                    +375 (29) 7877791, Ольга<br>
+                    +375 (29) 5837015, Рита</p>
+                <div class="footer__about-us__social-box">
+                    <p class="footer__about-us__social-discription">Связаться с нами можно написав в соц. сетях.</p>
+                    <div class="footer__about-us__social-icon-box">
+                        <div class="social-icon__background-white">
+                            <a class="social-icon__white" href="https://vk.com/animalsgrodno " tabindex="0">
+                            <div class="social-icon__white__vk"></div>
+                        </a>
+                        </div>
+                        <div class="social-icon__background-white">
+                            <a class="social-icon__white" href="https://www.instagram.com/animalsgrodno/" tabindex="0">
+                                <div class="social-icon__white__instagram"></div>
+                            </a>  
+                        </div>
+                    </div>
+                </div>       
+            </div> 
+        </section>              
+        <section class="footer__background-image-dog"> 
+            <div class="footer__thaks-for-the-help__background">
+                <div class="footer__thaks-for-the-help__square-background"></div>
+                <div class="footer__thaks-for-the-help__circle-background"></div>
+            </div>
+            <div><p class="footer__thaks-for-the-help__text">Спасибо<br> за помощь</p></div>
+            <div class="footer__thaks-for-the-help__paw"></div>
+        </section> 
+        <section class="footer__navigation">
+            <div class="footer__navigation__content">
+                <div class="footer__navigation__content__box-for-four-link">
+                    <a href="#house-or-some-period" tabindex="0">Дом или передержка</a>
+                    <a href="#financial-support" tabindex="0">Финансовая передержка</a>
+                    <a href="#material-support" tabindex="0">Корма, лекарства и другие вещи</a>
+                    <a href="#auto-support" tabindex="0">Автопомощь</a>
+                    <a href="#volunteering-support" tabindex="0">Волонтерство</a>
+                </div>
+                <div class="footer__navigation__content__box-for-two-link">
+                    <a href="#about-us" tabindex="0">О нас</a>
+                    <a href="#contacs" tabindex="0">Контакты</a>
+                </div>
+            </div>
+            <p class="footer__copyrigh">© 2020 БООЗЖ "СПАСИ ЖИЗНЬ"</p>
+        </section>
+    </footer>
+    <div class="modal-background" id="contacts-volunteering__modal">
+        <div class="contacts-volunteering__body" id="contacts-volunteering__body">
+            <div class="contacts-volunteering__header">
+                <div class="contacts-volunteering__header__content">
+                    <h5 class="contacts-volunteering__header__title">Кому и куда передать</h5>
+                    <a class="form__close-cross" id="contacts-volunteering__close-button"></a>
+                </div>
+            </div>
+            <div class="contacts-volunteering__content">
+                <p class="contacts-volunteering__discription">Чтобы передать купленные вещи, свяжитесь с нашими волонтерами. Вы сможете договориться о времени и месте встречи.</p>
+                <p class="contacts-volunteering__discription">Если доставить сами не сможете - волонтеры вам помогут в доставке.</p>
+                <p class="contacts-volunteering"><strong>+375 (33) 6237879</strong>  Лена</p>
+                <p class="contacts-volunteering"><strong>+375 (29) 7877791</strong>  Ольга</p>
+                <p class="contacts-volunteering"><strong>+375 (29) 5837015</strong>  Рита</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-background" id="take-at-home-form__modal">
+        <div class="form__body take-at-home-form__form-body">
+            <div class="form__header">
+                <div class="form__header__content">
+                    <h5 class="form__header__title">Забрать домой</h5>
+                    <a class="form__close-cross" id="take-at-home-form__close-button"></a>
+                </div>
+            </div>
+            <div class="form__content">
+                <form name="take-at-home-form" action="#" method="get" enctype="multipart/gorm-data">
+                    <div class="take-at-home-form__pet">
+                        <img src="./img/form/form-take-at-home-or-some-period__Monik.jpg" class="take-at-home-form__pet-info__foto">
+                        <div class="take-at-home-form__pet-info">
+                            <p class="take-at-home-form__pet-info__name">Моник</p>
+                            <p class="take-at-home-form__pet-info__gender-and-age">Мальчик, 7 месяцев</p>
+                        </div>
+                    </div>              
+                    <p class="form__discription take-at-home-form__discription">Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца.</p>      
+                        <div class="inpute-box">
+                            <input class="form__input-name form__input-name-and-phone__common-styles" id="take-at-home-form__input-name" type="text" value="" name="name"  minlength="2" maxlength="56" placeholder=" ">
+                            <label for="take-at-home-form__input-name" class="form__input__label">Фамилия и имя</label>
+                        </div>
+                        <div class="inpute-box">
+                            <input class="form__input-phone form__input-name-and-phone__common-styles" id="take-at-home-form__input-phone" type="tel" name="phone" value="" placeholder=" " pattern="" required>
+                            <label for="take-at-home-form__input-phone" class="form__input__label" >Номер телефона</label> 
+                        </div>
+                        <p class="required-field-text">Обязательное поле для заполнения</p>
+                        <div class="text-aria-box">
+                            <textarea class="form__text-aria-mark take-at-home__text-aria-mark" id="take-at-home-form__text-aria-mark" value="" type="text" name="mark" placeholder=" "></textarea>
+                            <label for="take-at-home-form__text-aria-mark" class="form__text-aria-mark__label">Замечания</label>
+                        </div>
+                        <p class="take-at-home-form__contacts">Если у вас есть вопросы, можете позвонить нам:<br>
+                                +375 (33) 6237879  Лена<br>
+                                +375 (29) 7877791  Ольга<br>
+                                +375 (29) 5837015  Рита</p>
+                    <div class="form__send-form-button__background-gold-big">
+                        <div class="form__send-form-button__background-gold-small">
+                            <p class="form__button-text">Отправить</p>
+                            <button class="form__send-form-button" type="submit" name="send__take-at-home-form"></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="form__cancel-form-button__background-silver-big">
+                    <div class="form__cancel-form-button__background-silver-small">
+                        <p class="form__button-text">Отмена</p>
+                        <button class="form__cancel-form-button" name="cancel__take-at-home-form" id="take-at-home-form__cancel-button"></button>
+                    </div>
+                </div>
+            </div>
+    </div>   
+    </div>
+    <div class="modal-background" id="take-for-some-period-form__modal">
+        <div class="form__body take-for-some-period-form__form-body">
+            <div class="form__header">
+                <div class="form__header__content">
+                    <h5 class="form__header__title">Забрать на передержку</h5>
+                    <a class="form__close-cross" id="take-for-some-period-form__close-button"></a>
+                </div>
+            </div>
+            <div class="form__content">
+                <div class="take-at-home-form__pet">
+                    <img src="./img/form/form-take-at-home-or-some-period__Monik.jpg" class="take-at-home-form__pet-info__foto">
+                    <div class="take-at-home-form__pet-info">
+                        <p class="take-at-home-form__pet-info__name">Моник</p>
+                        <p class="take-at-home-form__pet-info__gender-and-age">Мальчик, 7 месяцев</p>
+                    </div>
+                </div> 
+                <p class="form__discription take-at-home-form__discription">Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы сможете забрать себе питомца на передержку.</p>
+                <form name="take-for some-period-form">
+                    <div class="inpute-box">
+                        <input class="form__input-name form__input-name-and-phone__common-styles" id="take-at-home-form__input-name" type="text" value="" name="name"  minlength="2" maxlength="56" placeholder=" ">
+                        <label for="take-at-home-form__input-name" class="form__input__label">Фамилия и имя</label>
+                    </div>
+                    <div class="inpute-box">
+                        <input class="form__input-phone form__input-name-and-phone__common-styles" id="take-at-home-form__input-phone" type="tel" name="phone" value="" placeholder=" " pattern="" required>
+                        <label for="take-at-home-form__input-phone" class="form__input__label" >Номер телефона</label> 
+                    </div>
+                    <p class="required-field-text">Обязательное поле для заполнения</p>
+                    <div class="text-aria-box">
+                        <textarea class="form__text-aria-mark take-at-home__text-aria-mark" id="take-at-home-form__text-aria-mark" value="" type="text" name="mark" placeholder=" "></textarea>
+                        <label for="take-at-home-form__text-aria-mark" class="form__text-aria-mark__label">Замечания</label>
+                    </div>
+                    <p class="take-for-some-period-form__contacts">Если у вас есть вопросы, можете позвонить нам:<br>
+                            +375 (33) 6237879  Лена<br>
+                            +375 (29) 7877791  Ольга<br>
+                            +375 (29) 5837015  Рита</p>
+                    <p class="take-for-some-period-form__thanks-for-the-help">Наши волонтеры будут активно искать будущий дом хвостику, пока вы помогаете нам с передержкой.</p>
+                    <p class="take-for-some-period-form__thanks-for-the-help">Спасибо за помощь!</p>   
+                    <div class="form__send-form-button__background-gold-big">
+                        <div class="form__send-form-button__background-gold-small">
+                            <p class="form__button-text">Отправить</p>
+                            <button class="form__send-form-button" type="submit" name="send__take-at-home-form"></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="form__cancel-form-button__background-silver-big">
+                    <div class="form__cancel-form-button__background-silver-small">
+                        <p class="form__button-text">Отмена</p>
+                        <button class="form__cancel-form-button" name="cancel__take-at-home-form" id="take-for-some-period-form__cancel-button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-background" id="auto-help-form__modal">
+        <div class="auto-help-form__form-body form__body">
+            <div class="form__header">
+                <div class="form__header__content">
+                    <h5 class="form__header__title">Автопомощь</h5>
+                    <a class="form__close-cross" id="auto-help-form__close-button"></a>
+                </div>
+            </div>
+            <div class="form__content">
+                <form name="auto-help-form">
+                    <p class="form__content__application-title">Заявка</p>
+                    <p class="form__discription auto-help-form__discription">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь в транспортировке, мы позвоним вам.</p>
+                    <div class="inpute-box">
+                        <input class="form__input-name form__input-name-and-phone__common-styles" id="auto-help-form__input-name" type="text" value="" name="name"  minlength="2" maxlength="56" placeholder=" ">
+                        <label for="auto-help-form__input-name" class="form__input__label">Фамилия и имя</label>
+                    </div>
+                    <div class="inpute-box">
+                        <input class="form__input-phone form__input-name-and-phone__common-styles" id="auto-help-form__input-phone" type="tel" name="phone" value="" placeholder=" "  required>
+                        <label for="auto-help-form__input-phone" class="form__input__label" >Номер телефона</label> 
+                    </div>
+                    <p class="auto-help-form__hints">Выберите удобное время, когда вы сможете нам помочь</p>
+                    <div class="auto-help-form__input-date-time__container">
+                        <div class="auto-help-form__input-date__box">
+                            <input id="auto-help-form__input-date" type="date" name="calendar">
+                            <label for="auto-help-form__input-date"></label>
+                        </div>
+                        <div class="auto-help-form__input-time__box">
+                            <input id="auto-help-form__input-time" type="text" name="time" placeholder=" ">
+                            <label for="auto-help-form__input-time" class="auto-help-form__input-time__label">Время</label>
+                        </div>
+                    </div>
+                        <div class="auto-help-form__add-date-and-time__button-box">
+                            <input type="button" id="auto-help-form__add-date-and-time__button"></input>
+                            <label for="auto-help-form__add-date-and-time__button" class="auto-help-form__add-date-and-time__label">Добавить дату и время</label>
+                            <div class="auto-help-form__add-date-and-time__button--pseudo">
+                                <div class="auto-help-form__add-date-and-time__button-cross-white--pseudo"></div>
+                            </div>
+                        </div>
+                        <div class="auto-help-form__checkbox__box">
+                            <input type="checkbox" id="auto-help-form__checkbox__any-weekday" class="auto-help-form__checkbox"></input>
+                            <label for="auto-help-form__checkbox__any-weekday">В любой будний день</label>
+                            <div class="auto-help-form__checkbox--pseudo">
+                                <div class="auto-help-form__checkbox--pseudo__white-check-mark"></div>
+                            </div>
+                        </div> 
+                        <div class="auto-help-form__checkbox__box">
+                            <input type="checkbox" id="auto-help-form__checkbox__any-weekend" class="auto-help-form__checkbox"></input>
+                            <label for="auto-help-form__checkbox__any-weekend">В любой выходной день</label>
+                            <div class="auto-help-form__checkbox--pseudo">
+                                <div class="auto-help-form__checkbox--pseudo__white-check-mark"></div>
+                            </div>
+                        </div>  
+                    <p class="auto-help-form__hints">Выберите вид автопомощи</p>
+                    <div class="auto-help-form__checkbox__box">
+                        <input type="checkbox" name="small-items" id="auto-help-form__checkbox__small-items" class="auto-help-form__checkbox"> 
+                        <label for="auto-help-form__checkbox__small-items">Доставка еды, медикаментов и других небольших вещей</label>
+                        <div class="auto-help-form__checkbox--pseudo">
+                            <div class="auto-help-form__checkbox--pseudo__white-check-mark"></div>
+                        </div>
+                    </div>
+                    <div class="auto-help-form__checkbox__box">
+                        <input type="checkbox" name="big-items" id="auto-help-form__checkbox__big-items" class="auto-help-form__checkbox"> 
+                        <label for="auto-help-form__checkbox__big-items">Доставка сена или соломы, строительных материлов  для будок и других крупногабаритных вещей</label>
+                        <div class="auto-help-form__checkbox--pseudo">
+                            <div class="auto-help-form__checkbox--pseudo__white-check-mark"></div>
+                        </div>
+                    </div>
+                    <div class="auto-help-form__checkbox__box">
+                        <input type="checkbox" name="small-dogs-and-cat" id="auto-help-form__checkbox__small-dogs-and-cat" class="auto-help-form__checkbox">
+                        <label for="auto-help-form__checkbox__small-dogs-and-cat">Транспортировка небольших собак и котов</label>
+                        <div class="auto-help-form__checkbox--pseudo">
+                            <div class="auto-help-form__checkbox--pseudo__white-check-mark"></div>
+                        </div>
+                    </div>
+                    <div class="auto-help-form__checkbox__box">
+                        <input type="checkbox" name="big-dogs" id="auto-help-form__checkbox__big-dogs" class="auto-help-form__checkbox"> 
+                        <label for="auto-help-form__checkbox__big-dogs">Транспортировка больших собак</label>
+                        <div class="auto-help-form__checkbox--pseudo">
+                            <div class="auto-help-form__checkbox--pseudo__white-check-mark"></div>
+                        </div>
+                    </div>
+                    <div class="text-aria-box">
+                        <textarea class="form__text-aria-mark auto-help-form__text-aria-mark" id="auto-help-form__text-aria-mark" value="" type="text" name="mark" placeholder=" "></textarea>
+                        <label for="auto-help-form__text-aria-mark" class="form__text-aria-mark__label auto-help-form__text-aria__label">Замечания</label>
+                    </div>
+                    <div class="form__send-form-button__background-gold-big auto-help-and-volunteering__send-form-button__background-gold-big">
+                        <div class="form__send-form-button__background-gold-small auto-help-and-volunteering__send-form-button__background-gold-small">
+                            <p class="form__button-text">Отправить заявку</p>
+                            <button class="form__send-form-button" type="submit" name="send__auto-help-form"></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="form__cancel-form-button__background-silver-big">
+                    <div class="form__cancel-form-button__background-silver-small">
+                        <p class="form__button-text">Отмена</p>
+                        <button class="form__cancel-form-button" name="cancel__auto-help-form" id="auto-help-form__cancel-button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-background" id="volunteering-form__modal">
+        <div class="form__body volunteering-form__form-body">
+            <div class="form__header">
+                <div class="form__header__content">
+                    <h5 class="form__header__title">Волонтерство</h5>
+                    <a class="form__close-cross" id="volunteering-form__close-button"></a>
+                </div>
+            </div>
+            <div class="form__content">
+                <form name="volunteeringForm">
+                    <p class="form__content__application-title">Заявка</p>
+                    <p class="form__discription volunteering-form__discription">Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима помощь, мы позвоним вам.</p>
+                    <div class="inpute-box">
+                        <input class="form__input-name form__input-name-and-phone__common-styles" id="volunteering-form__input-name" type="text" value="" name="name"  minlength="2" maxlength="56" placeholder=" ">
+                        <label for="volunteering-form__input-name" class="form__input__label">Фамилия и имя</label>
+                    </div>
+                    <div class="inpute-box">
+                        <input class="form__input-phone form__input-name-and-phone__common-styles" id="volunteering-form__input-phone" type="tel" name="phone" value="" placeholder=" " pattern="" required>
+                        <label for="volunteering-form__input-phone" class="form__input__label" >Номер телефона</label> 
+                    </div>
+                    <div class="volunteering-form-checkbox__const-and-sometimes-help__box">
+                        <input type="radio" name="constant-or-sometimes-help" class="volunteering-form-checkbox__const-and-sometimes-help" id="constant-help" checked><label for="constant-help">Хочу помогать на постоянной основе (расписание можно подобрать так, как будет вам удобно)</label>
+                        <div class="volunteering-form-checkbox__const-and-sometimes-help--pseudo"><div class="volunteering-form-checkbox__const-and-sometimes-help--pseudo__white-dot"></div></div>
+                    </div>
+                    <div class="volunteering-form-checkbox__const-and-sometimes-help__box">
+                        <input type="radio" name="constant-or-sometimes-help" class="volunteering-form-checkbox__const-and-sometimes-help" id="sometimes-help"><label for="sometimes-help">Готов помогать иногда. Хочу выбрать удобное для меня время</label>
+                        <div class="volunteering-form-checkbox__const-and-sometimes-help--pseudo"><div class="volunteering-form-checkbox__const-and-sometimes-help--pseudo__white-dot"></div></div>
+                    </div>
+                    <div class="text-aria-box">
+                        <textarea class="form__text-aria-mark volunteering-form__text-aria-mark" id="volunteering-form__text-aria-mark" value="" type="text" name="mark" placeholder=" "></textarea>
+                        <label for="volunteering-form__text-aria-mark" class="form__text-aria-mark__label volunteering-form__text-aria-mark__label">Замечания</label>
+                    </div>
+                    <div class="form__send-form-button__background-gold-big auto-help-and-volunteering__send-form-button__background-gold-big">
+                        <div class="form__send-form-button__background-gold-small auto-help-and-volunteering__send-form-button__background-gold-small">
+                            <p class="form__button-text">Отправить заявку</p>
+                            <button class="form__send-form-button" name="send__volunteering-form"></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="form__cancel-form-button__background-silver-big">
+                    <div class="form__cancel-form-button__background-silver-small">
+                        <p class="form__button-text">Отмена</p>
+                        <button class="form__cancel-form-button" name="cancel__volunteering-form" id="volunteering-form__cancel-button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var volunteeringFormModal = document.getElementById("volunteering-form__modal");
+        var volunteeringFormOpenButton = document.getElementById("volunteering-form__open-button");
+        var volunteeringFormCloseButton = document.getElementById("volunteering-form__close-button");
+        var volunteeringFormCancelButton = document.getElementById("volunteering-form__cancel-button");
+        var bodyNotScroll = document.getElementById ('body')
+        volunteeringFormOpenButton.onclick = function() {
+            volunteeringFormModal.style.display = "block";
+            bodyNotScroll.style.overflow = 'hidden';
+        }
+        volunteeringFormCancelButton.onclick = function() {
+            volunteeringFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        volunteeringFormCloseButton.onclick = function() {
+            volunteeringFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        window.addEventListener("click", function(event) {
+            if (event.target == volunteeringFormModal) {
+                volunteeringFormModal.style.display = "none";
+                bodyNotScroll.style.overflow = '';
+            }
+        })
+    </script>
+    <script>
+        var autoHelpFormModal = document.getElementById("auto-help-form__modal");
+        var autoHelpFormOpenButton = document.getElementById("auto-help-form__open-button");
+        var autoHelpFormCloseButton = document.getElementById("auto-help-form__close-button");
+        var autoHelpFormCancelButton = document.getElementById("auto-help-form__cancel-button");
+        var bodyNotScroll = document.getElementById ('body')
+        autoHelpFormOpenButton.onclick = function() {
+            autoHelpFormModal.style.display = "block";
+            bodyNotScroll.style.overflow = 'hidden';
+        }
+        autoHelpFormCancelButton.onclick = function() {
+            autoHelpFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        autoHelpFormCloseButton.onclick = function() {
+            autoHelpFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        window.addEventListener("click", function(event) {
+            if (event.target == autoHelpFormModal) {
+                autoHelpFormModal.style.display = "none";
+                bodyNotScroll.style.overflow = '';
+            }
+        })
+    </script>
+    <script>
+        var contactsVolunteeringModal = document.getElementById("contacts-volunteering__modal");
+        var contactsVolunteeringOpenButton = document.getElementById("contacts-volunteering__open-button");
+        var contactsVolunteeringCloseButton = document.getElementById("contacts-volunteering__close-button");
+        var bodyNotScroll = document.getElementById ('body')
+        contactsVolunteeringOpenButton.onclick = function() {
+            contactsVolunteeringModal.style.display = "block";
+            bodyNotScroll.style.overflow = 'hidden';
+        }
+        contactsVolunteeringCloseButton.onclick = function() {
+            contactsVolunteeringModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        window.onclick = function(event) {
+          if (event.target == contactsVolunteeringModal) {
+            contactsVolunteeringModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+          }
+        }
+    </script>
+    <script>
+        var takeForSomePeriodFormModal = document.getElementById("take-for-some-period-form__modal");
+        var takeForSomePeriodFormOpenButton = document.getElementById("take-for-some-period-form__open-button");
+        var takeForSomePeriodFormCloseButton = document.getElementById("take-for-some-period-form__close-button");
+        var takeForSomePeriodFormCancelButton = document.getElementById("take-for-some-period-form__cancel-button");
+        var bodyNotScroll = document.getElementById ('body')
+        takeForSomePeriodFormOpenButton.onclick = function() {
+            takeForSomePeriodFormModal.style.display = "block";
+            bodyNotScroll.style.overflow = 'hidden';
+        }
+        takeForSomePeriodFormCancelButton.onclick = function() {
+            takeForSomePeriodFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        takeForSomePeriodFormCloseButton.onclick = function() {
+            takeForSomePeriodFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        window.addEventListener("click", function(event) {
+            if (event.target == takeForSomePeriodFormModal) {
+            takeForSomePeriodFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+            }
+        })
+    </script>
+    <script>
+        var takeAtHomeFormModal = document.getElementById("take-at-home-form__modal");
+        var takeAtHomeFormOpenButton = document.getElementById("take-at-home-form__open-button");
+        var takeAtHomeFormCloseButton = document.getElementById("take-at-home-form__close-button");
+        var takeAtHomeFormCancelButton = document.getElementById("take-at-home-form__cancel-button")
+        var bodyNotScroll = document.getElementById ('body')
+        takeAtHomeFormOpenButton.onclick = function() {
+            takeAtHomeFormModal.style.display = "block";
+            bodyNotScroll.style.overflow = 'hidden';
+        }
+        takeAtHomeFormCancelButton.onclick = function() {
+            takeAtHomeFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        takeAtHomeFormCloseButton.onclick = function() {
+            takeAtHomeFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+        }
+        window.addEventListener("click", function(event) {
+            if (event.target == takeAtHomeFormModal) {
+            takeAtHomeFormModal.style.display = "none";
+            bodyNotScroll.style.overflow = '';
+            }
+        })
+    </script>
+</body>
+</html>

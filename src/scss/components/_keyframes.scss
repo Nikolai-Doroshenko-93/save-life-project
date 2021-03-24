@@ -1,0 +1,67 @@
+@keyframes animation-dog {
+    0% {
+        right: -50%;
+        opacity: 0;
+    }  
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+@keyframes animation-cat {
+    0% {
+        top: 100%;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes animation-best-friends {
+    0% {
+        bottom: -80%;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes promo-gray-box-content {
+    0% {
+        left: -80%;  
+        opacity: 0; 
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes how-to-help__navigation-animation {
+    0% {
+        bottom: -80%;
+        opacity: 0;
+    }
+  
+ 
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes forms-appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes animals-card {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

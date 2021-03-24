@@ -1,0 +1,10 @@
+.body {
+    width: 100%;
+    font-family: 'Gilroy';
+    margin: 0 auto;
+    position: relative;
+    &-not-scroll {
+        overflow: hidden;
+    }
+}
+

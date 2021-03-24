@@ -1,0 +1,305 @@
+.our-wards {
+    &__animals-card {
+        &__Lunatik-foto {
+            background-image: url(../images/design/card/Lunatik__1920-768.jpg);
+        }
+        &__Gerda-foto {
+            background-image: url(../images/design/card/Gerda__1920-768.jpg);
+        }
+        &__Saki-foto {
+            background-image: url(../images/design/card/Saki__1920-768.jpg)
+        }
+        &__Texi-foto {
+            background-image: url(../images/design/card/Taxi__1920-768.jpg)
+        }
+        &__Adreantino-foto {
+            background-image: url(../images/design/card/Adreantino__1920-768.jpg)
+        }
+        &__Pupsik-foto {
+            background-image: url(../images/design/card/Pupsik__1920-768.jpg)
+        }
+        &__Mishka-foto {
+            background-image: url(../images/design/card/Mishka__1920-768.jpg)
+        }
+        &__Barsik-foto {
+            background-image: url(../images/design/card/Barsik__1920-768.jpg)
+        }
+        &__Milaha-foto {
+            background-image: url(../images/design/card/Milaha__1920-768.jpg)
+        }
+        &__Gray-foto {
+            background-image: url(../images/design/card/Gray__1920-768.jpg)
+        }
+    }    
+}
+.cards-page {
+    &__body {
+        width: 1366px;
+        font-family: 'Gilroy';
+        margin: 0 auto;
+    }
+    &__header {
+        height: 118px;
+        margin: 0 auto;
+        position: relative;
+        &__content {
+            width: 1146px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+        &__title {
+            color: #242424;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 120%;
+            padding-top: 43px;
+            padding-bottom: 41px;
+            margin: 0;
+        }
+        &__select {
+            width: 168px;
+            height: 40px;
+            & option{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        &__select-box {
+            width: 256px;
+            height: 40px;
+        }
+        &__select-label {
+            color: #6B6B6B;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+        }
+        &__come-back-link {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            width: 193px;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover  .cards-page__header__come-back-icon-background {
+                background: linear-gradient(155.32deg, #FFEAAF 13.8%, #F3B401 51.37%, #E2A700 87.76%);
+                box-shadow: 2px 2px 4px rgba(206, 206, 206, 0.25);
+                & .cards-page__header__come-back-text{
+                    color: #242424;
+                } 
+            }
+            &:active .cards-page__header__come-back-icon-background {
+                background: linear-gradient(155.32deg, #E2A700 13.8%, #F3B401 51.37%, #FFEAAF 90.56%);
+                box-shadow: 2px 2px 4px rgba(206, 206, 206, 0.25);
+            }
+        }
+        &__come-back-icon-background {
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(155.32deg, #FFD868 13.8%, #F3B401 90.56%);
+            box-shadow: 2px 2px 4px rgba(206, 206, 206, 0.25);  
+        }
+        &__come-back-icon {
+            background-image: url("data:image/svg+xml,%3Csvg width='17' height='14' viewBox='0 0 17 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16.3998 5.65714V7.54286H4.6998L8.5998 11.3143L7.6248 13.2L0.799805 6.6L7.6248 0L8.5998 1.88571L4.6998 5.65714H16.3998Z' fill='white'/%3E%3C/svg%3E%0A");
+            width: 17px;
+            height: 14px;
+        }
+        &__come-back-text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            color: #6B6B6B;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    &__box {
+        width: 1146px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 42px;
+    }
+    &__animals-card {
+        position: relative;
+        z-index: 9;
+        &__content {
+            width: 335px;
+            margin: 16px auto;
+            z-index: 10;
+            position: relative;
+            & h5 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 20px;
+                text-align: center;
+                margin: 8px 0px 10px;
+            }
+        }
+        &__more-details {
+            position: absolute;
+            top: 504px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 40px;
+            color: #AD7F00;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        &__button-box {
+            position: absolute;
+            top: 574px;
+            left: 36px;
+            display: none;
+        }
+        &:hover .cards-page__animals-card__button-box {
+            display: block;
+            z-index: 15;
+        }
+        &:hover:after {
+            content:"";
+          display:block;
+          position: absolute;
+          top:0;
+          left:0;
+          right:0;
+          bottom:0;
+          transition:0.35s;
+          z-index:11;
+        }
+        &:hover .cards-page__animals-card__content {
+            z-index: 15;
+        }
+        &__Monik:hover,
+        &__Lunatik:hover,
+        &__Gerda:hover,
+        &__Saki:hover,
+        &__Texi:hover,
+        &__Andreantino:hover,
+        &__Pupsik:hover,
+        &__Mishka:hover,
+        &__Barsik:hover,
+        &__Milaha:hover,
+        &__Gray:hover {
+            z-index: 20;
+        }
+        &__Monik:hover:after,
+        &__Lunatik:hover:after,
+        &__Gerda:hover:after,
+        &__Saki:hover:after,
+        &__Texi:hover:after,
+        &__Andreantino:hover:after,
+        &__Pupsik:hover:after,
+        &__Mishka:hover:after,
+        &__Barsik:hover:after,
+        &__Milaha:hover:after,
+        &__Gray:hover:after {
+            bottom:-145px;
+            border:1px solid #FFCB38;
+            z-index:14;
+            border-radius:5px;
+            box-shadow: 6px 6px 16px rgba(163, 163, 163, 0.6), -8px -8px 16px #FFFFFF, inset 4px 4px 16px rgba(203, 203, 203, 0.25);
+            background: #F6F6F6;
+        }
+    &__footer-navigation {
+        padding-top: 45px;
+        padding-bottom: 16px;
+        }
+    }
+    &__copyrigh {
+        padding-bottom: 40px;
+        margin-top: 10px;
+    }
+}
+.animals-card {
+    &__button-take-at-home {
+        &__button-gold {
+            width: 199px;   
+            text-align: center;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 32px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 1px;
+            background-clip: content-box, border-box;
+            border-radius: 58px;
+            color: #242424;
+            text-decoration: none;
+        }
+        &__button-background-gold {
+            width: 209px;
+            height: 42px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1px;
+            border-radius: 58px;
+            cursor: pointer;
+            background-clip: content-box, border-box;  
+        }
+    }
+    &__button-take-at-some-period {
+        &__button-silver {
+            width: 286px;
+            text-align: center;
+            font-size: 20px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 32px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 1px;
+            background-clip: content-box, border-box;
+            border-radius: 58px;
+            color: #242424;
+            background: linear-gradient(180deg, #FBFBFB 0%, #F6F6F6 100%);
+            box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25);
+            &:hover {
+                background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 53.12%, #EFECEC 100%);
+                box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 3px 3px 13px rgba(128, 128, 128, 0.25);
+                border-radius: 58px;
+            }
+            &:active{
+                background: linear-gradient(180deg, #F1F1F1 1.56%, #FCFAFA 100%);
+                box-shadow: 3px 3px 13px rgba(128, 128, 128, 0.25), inset 0px 4px 13px rgba(0, 0, 0, 0.06);
+                border-radius: 58px;
+            }
+        }
+        &__button-background-silver {
+            width: 296px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1px;
+            border-radius: 58px;
+            cursor: pointer;
+            background-clip: content-box, border-box;
+            position: relative;
+            top: 22px;
+            background: #F6F6F6;
+            box-shadow: 7px 7px 16px #E3E3E3, -4px -4px 8px rgba(255, 255, 255, 0.7), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+        }
+    }
+
+}

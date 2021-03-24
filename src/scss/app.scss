@@ -1,0 +1,44 @@
+/* By Athlon Front-End Team */
+
+/* Core variables */
+@import "base/vars";
+
+/* CSS Reset */
+@import "base/reset";
+
+/* CSS print */
+@import "base/print";
+
+/* Fonts */
+@import "base/fonts";
+
+/* Mixins, helpers and functions */
+@import "base/mixins";
+
+/* Vendor */
+
+/* Components */
+@import "components/keyframes";
+/* Browser specific styles */
+@import "components/common-styles-for-button-and-icon";
+@import "components/body";
+@import "components/header";
+@import "components/promo-gray-box";
+@import "components/promo-white-box";
+@import "components/how-to-help__navigation";
+@import "components/home-and-overexposure";
+@import "components/our-wards";
+@import "components/financial-support";
+@import "components/material-support";
+@import "components/auto-support";
+@import "components/volunteering";
+@import "components/article";
+@import "components/footer";
+@import "components/modal-windows-styles";
+@import "components/media";
+@import "components/cards-page";
+
+
+
+
+

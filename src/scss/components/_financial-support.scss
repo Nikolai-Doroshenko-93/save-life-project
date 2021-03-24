@@ -1,0 +1,178 @@
+#financial-support__boxes-city__maps-box--map {
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    border: none;
+}
+.financial-support {
+    height: 716px;
+    position: relative;
+    &__icon {
+        background-image: url("data:image/svg+xml,%3Csvg width='131' height='95' viewBox='0 0 131 95' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M51.4276 7.40591C51.4276 5.44174 52.2086 3.55802 53.5988 2.16914C54.989 0.780263 56.8745 0 58.8405 0L103.318 0C105.284 0 107.169 0.780263 108.56 2.16914C109.95 3.55802 110.731 5.44174 110.731 7.40591V25.9207H51.4276V7.40591ZM94.0517 11.1089C93.5602 11.1089 93.0889 11.3039 92.7413 11.6511C92.3938 11.9984 92.1985 12.4693 92.1985 12.9603V16.6633C92.1985 17.1543 92.3938 17.6253 92.7413 17.9725C93.0889 18.3197 93.5602 18.5148 94.0517 18.5148H101.465C101.956 18.5148 102.428 18.3197 102.775 17.9725C103.123 17.6253 103.318 17.1543 103.318 16.6633V12.9603C103.318 12.4693 103.123 11.9984 102.775 11.6511C102.428 11.3039 101.956 11.1089 101.465 11.1089H94.0517Z' fill='%23FFC41E'/%3E%3Cpath d='M51.4273 33.3267V37.0296C51.4273 38.9938 52.2083 40.8775 53.5985 42.2664C54.9886 43.6553 56.8741 44.4355 58.8402 44.4355H103.318C105.284 44.4355 107.169 43.6553 108.559 42.2664C109.949 40.8775 110.73 38.9938 110.73 37.0296V33.3267H51.4273Z' fill='%23FFC41E'/%3E%3Cmask id='path-3-inside-1' fill='white'%3E%3Crect y='34.7286' width='20.1631' height='58.2713' rx='2'/%3E%3C/mask%3E%3Crect y='34.7286' width='20.1631' height='58.2713' rx='2' stroke='%23242424' stroke-width='10' mask='url(%23path-3-inside-1)'/%3E%3Cpath d='M26.5198 44.6232V83.2725C35.4152 83.2725 38.1524 85.0803 47.2759 85.651C78.3589 95.4304 84.9183 92.0548 100.047 83.2725C105.645 80.0235 114.74 72.9827 121.036 67.8128C129.49 59.4406 128.64 57.2288 126.742 55.3261C118.44 47.0016 109.544 66.6236 92.9393 67.8128C80.1536 68.7285 58.5435 66.6236 53.2062 66.6236' stroke='%23242424' stroke-width='5'/%3E%3Cpath d='M24.5581 44.6544C29.7674 44.2826 40.2213 42.7453 44.9038 44.6233C50.8341 47.0017 53.2973 52.2104 56.6703 53.341C64.3663 55.9207 76.9469 55.4901 81.6717 55.9207C88.195 56.5153 98.8696 56.5153 98.2766 65.4344C97.9023 71.0628 66.2529 66.6236 53.7992 66.6236' stroke='%23242424' stroke-width='5'/%3E%3C/svg%3E%0A");
+        width: 131px;
+        height: 95px; 
+    }
+    &__box-icon {
+        overflow: hidden;
+        text-align: center;
+        padding-top: 46px;
+        & span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &::before, &::after {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            height: 1px;
+            background-color:#EEBF3A;
+            position: relative;
+        }
+        &::before {
+            margin-left: -100%;
+            left: -14px;
+        }
+        &::after {
+            margin-right: -100%;
+            right: -14px; 
+        }
+    }
+    &__content {
+        &__title {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 28px;
+            line-height: 24px;
+            font-weight: 600;
+            padding-top: 58px;
+        }
+        &__discription {
+            margin: 0 auto;
+            text-align: center;
+            width: 758px;
+            font-size: 18px;
+            line-height: 24px;
+            padding-top: 24px;
+        }
+        &__box {
+            width: 875px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            & h5 {
+                font-size: 28px;
+                font-weight: 300;
+                margin: 40px 0px 24px 0px;
+            }
+        }
+        &__bank-account {
+            width: 389px;
+            & li {
+                list-style-type: none;
+                margin-top: 10px;
+            }
+            & ul {
+                margin-left: 0; 
+                padding-left: 0; 
+            }
+        }
+        &__boxes-city {
+            width: 389px;
+            &-discription {
+                margin: 0;
+                padding: 0; 
+            }
+            & li {
+                margin: 0;
+                margin-top: 10px;
+                padding: 0;
+                font-size: 16px;
+                line-height: 22.4px;
+            }
+            & ol{
+                margin-top: 0px;
+                margin-left: 5px; 
+                padding-left: 10px; 
+                line-height: 22.4px;
+            }
+            &__see-on-the-map {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 40px; 
+                text-decoration-line: underline;
+                color: #AD7F00;
+                cursor: pointer;
+            }
+            &__maps-box {
+                display: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 5;
+                width: 92%;
+                margin: 4%;
+                height: 92%;
+                background-color: white;
+                box-shadow: 0px 0px 22px rgba(161, 161, 161, 0.25);
+                &__close-cross {
+                    position: absolute;
+                    top: 1%;
+                    right: 0%;
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                    opacity: 0.6;
+                    &:hover {
+                        opacity: 1;
+                    }
+                    &::before,
+                    &::after {
+                        position: absolute;
+                        left: 0;
+                        content: ' ';
+                        height: 20px;
+                        width: 2px;
+                        background: #81869C;
+                    }
+                    &::before {
+                        transform: rotate(45deg); 
+                    }
+                    &::after {
+                        transform: rotate(-45deg);
+                    }                   
+                }
+            }
+        }
+    }
+    &__button-fast-payment__button-gold {
+        width: 211px;
+        text-align: center;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 32px;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 1px;
+        background-clip: content-box, border-box;
+        border-radius: 58px;
+        color: #242424;
+        text-decoration: none;
+    }
+    &__button-fast-payment__button-background-gold {
+        width: 221px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1px;
+        border-radius: 58px;
+        cursor: pointer;
+        background-clip: content-box, border-box;
+    }
+}
+
