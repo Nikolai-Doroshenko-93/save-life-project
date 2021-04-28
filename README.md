@@ -1,3 +1,3 @@
 # save-life #
-[open](https://save-life-project.netlify.app)
+[open](https://save-life-project.netlify.app)  
 Здесь используется готовая вебпак сборка, которую нам выдали на курсе. Сам с нуля не писал, но разобрался как работает эта.
