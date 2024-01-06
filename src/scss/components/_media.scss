@@ -2213,7 +2213,7 @@
         }
     }  
 }
-@media all and (max-width: 639px) {
+@media screen and (max-width: 639px) {
     .body {
         width: 100%;
     }
@@ -2525,7 +2525,7 @@
     .footer {
         height: 998px;
         &__about-us {
-            height: 482px;
+            height: 536px;
             &__content {
                 width: 300px;
             }
