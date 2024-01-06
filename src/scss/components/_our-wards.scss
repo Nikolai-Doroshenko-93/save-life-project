@@ -27,7 +27,7 @@
     }
     &__animals-card__box {
         margin: 0 auto;
-        width: 1146px;
+        max-width: 1146px;
         display: flex; 
         justify-content:space-around;
         position: relative;
@@ -41,7 +41,6 @@
     &__animals-card {
         width: 368px;
         height: 555px;
-        background: #F6F6F6;
         background: #F6F6F6;
         box-shadow: 6px 6px 16px rgba(163, 163, 163, 0.6), -8px -8px 16px #FFFFFF, inset 4px 4px 16px rgba(203, 203, 203, 0.25);
         border-radius: 5px;

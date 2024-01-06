@@ -2007,7 +2007,7 @@
     }
     .cards-page {
         &__body {
-            width: 640px;
+            max-width: 640px;
         }
         &__header {
             height: 150px;
@@ -2097,13 +2097,16 @@
             }
         }
     }
+    .ppp {
+        display: none;
+    }
     .form {
         &__body {
             width: 640px;
         }
         &__header {
             &__content {
-                width: 580px;
+                max-width: 580px;
             }
             &__title {
                 font-size: 22px;
@@ -2404,6 +2407,9 @@
                 
             } 
         }
+    }
+    .our-wards__animals-card__box {
+        width: 100%;
     }
 
     .home-and-overexposure {
