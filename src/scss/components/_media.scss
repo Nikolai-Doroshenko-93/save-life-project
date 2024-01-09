@@ -1,4 +1,4 @@
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px)  {
     .body {
         width: 1920px;
     }
@@ -17,7 +17,7 @@
         position: relative;
     }
 }
-@media screen and (max-width: 1269px) {
+@media screen and (max-width: 1269px)  {
     .body {
         width: 100%;
     }
@@ -1292,7 +1292,7 @@
         }
     } 
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px)  {
     .body {
         width: 100%;
     }
@@ -2256,8 +2256,8 @@
         }
         & p:nth-child(3) {
             font-size: 12px;
-            line-height: 14px; 
-            width: 211px;     
+            line-height: 14px;
+            width: 211px;
         }
         & p:nth-child(4) {
             font-size: 14px;
@@ -2271,7 +2271,7 @@
             text-align: center;
             position: relative;
             top: 80px;
-            left: 10px;      
+            left: 10px;
         }
         &__content {
             width: 300px;
@@ -2292,7 +2292,7 @@
                 bottom: 355px;
                 right: -20%;
                 width: 110px;
-            } 
+            }
         }
         &__img-cat {
             background-image: url(../images/design/promo-gray-box__img-cat__767-360.png);
@@ -2336,7 +2336,7 @@
         &__image-cat-and-dog {
             &__circle-image-dog-and-cat {
                 width: 197px;
-                height: 197px; 
+                height: 197px;
                 position: absolute;
                 right: 0;
                 top: 0;
@@ -2345,7 +2345,7 @@
                 content: "";
                 background-image: url('../images/design/promo-white-box__content__circle-dog__767-360.png');
                 width: 173px;
-                height: 173px; 
+                height: 173px;
                 border: 12px solid #FFC41E;
                 position: absolute;
             }
@@ -2368,11 +2368,11 @@
                     content: "";
                     background-color: #FFC41E;
                     width: 100%;
-                    height: 197px;   
+                    height: 197px;
                     position: absolute;
                     top: 0;
-                    left: 0;   
-                }   
+                    left: 0;
+                }
             }
         }
     }
@@ -2381,18 +2381,18 @@
             height: 638px;
             width: 100%;
             &-box {
-                width: 300px; 
+                width: 300px;
                 margin: 0 auto;
-                position: relative; 
+                position: relative;
                 top: 80px;
             }
             &__buttons {
                 height: 400px;
-                display: grid; 
-                grid-template-areas:  "house house material material" 
+                display: grid;
+                grid-template-areas:  "house house material material"
                                       "finance finance autos autos"
                                       "volunteering volunteering volunteering volunteering";
-                justify-items: center;                   
+                justify-items: center;
             }
         }
         &__area {
@@ -2405,8 +2405,8 @@
                 grid-area: volunteering;
                 position: relative;
                 right: 0;
-                
-            } 
+
+            }
         }
     }
     .our-wards__animals-card__box {
@@ -2444,8 +2444,8 @@
             &__boxes-city {
                 width: 300px;
                 & ol{
-                    margin: 0; 
-                    padding: 0; 
+                    margin: 0;
+                    padding: 0;
                 }
                 & li {
                     margin: 0;
@@ -2454,7 +2454,7 @@
                     line-height: 19.6px;
                 }
             }
-        
+
         }
         &__discription {
             width: 300px;
@@ -2471,16 +2471,16 @@
         height: 320px;
         &__content {
             width: 300px;
-            margin: 0 auto;  
+            margin: 0 auto;
         }
-    } 
+    }
     .volunteering {
         height: 631px;
         position: relative;
         &__content {
             width: 300px;
             margin: 0 auto;
-            position: static;  
+            position: static;
         }
     }
 
@@ -2490,7 +2490,7 @@
             &__black-dog {
                 background-image: url(../images/design/news__black-dog__767-360.jpg);
                 width: 86px;
-                height: 79px; 
+                height: 79px;
             }
             &__black-youngs-dog {
                 background-image: url(../images/design/news__black-young-dogs__767-360.jpg);
@@ -2518,7 +2518,7 @@
                 margin-top: 16px;
                 text-align: center;
                 position: static;
-        
+
             }
         }
     }
@@ -2542,21 +2542,21 @@
                 display: flex;
                 justify-content: space-between;
                 width: 94px;
-            } 
+            }
         }
         &__background-image-dog {
             width: 100%;
             height: 267px;
         }
         &__thaks-for-the-help {
-            &__square-background {  
-                top: 39px;  
-            } 
+            &__square-background {
+                top: 39px;
+            }
             &__circle-background {
                 top: 39px;
             }
             &__text {
-                top: 107px; 
+                top: 107px;
             }
             &__paw {
                 top: 141px;
