@@ -1,4 +1,4 @@
-@media all and (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
     .body {
         width: 1920px;
     }
@@ -17,7 +17,7 @@
         position: relative;
     }
 }
-@media all and (max-width: 1269px) {
+@media screen and (max-width: 1269px) {
     .body {
         width: 100%;
     }
@@ -593,7 +593,7 @@
         } 
     }
 }
-@media all and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .body {
         width: 100%;
     }
@@ -1292,7 +1292,7 @@
         }
     } 
 }
-@media all and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .body {
         width: 100%;
     }
@@ -2231,6 +2231,7 @@
             z-index: 50;
         }
         &__content {
+            width: 100%;
             &::after {
                 display: none;
             }
