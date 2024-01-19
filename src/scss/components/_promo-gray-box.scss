@@ -12,6 +12,8 @@
         animation: animation-cat 0.5s linear 1;
     }
     &__social-icon {
+        position: relative;
+        right: 20px;
         &__button-vk {
             width: 42px;
             height: 30px;

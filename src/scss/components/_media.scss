@@ -2213,7 +2213,7 @@
         }
     }  
 }
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 539px) {
     .body {
         width: 100%;
     }
@@ -2289,7 +2289,7 @@
             &__social-icon-box {
                 position: absolute;
                 bottom: 355px;
-                right: -20%;
+                right: -10%;
                 width: 110px;
             } 
         }
@@ -2625,5 +2625,9 @@
     }
 }
 
-
+@media screen and (max-width: 420px) {
+.promo-gray-box__content__social-icon-box {
+    right: -9%;
+}
+}
 
